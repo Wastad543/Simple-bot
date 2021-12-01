@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 
-bot = telebot.TeleBot('2111238592:AAEyrQcTj0lKhx3YNlwga4uF2xVxx0GITw4')
+bot = telebot.TeleBot('Я спрятал. Введите свой токен')
 
 @bot.message_handler(commands=['start'])
 def start(message):
